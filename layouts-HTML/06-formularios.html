@@ -71,7 +71,7 @@
 
     <header>
 
-        <h2>Título da página</h2>
+        <h2>Fale conosco</h2>
 
     </header>
 
@@ -86,10 +86,58 @@
 
         <article>
 
-            <h1>Título Artigo</h1>
+            <h1>Contato</h1>
+            <p>Preencha os campos abaixo</p>
+            <form method="post">
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quasi omnis quis sequi earum accusamus inventore eum facilis in assumenda. Blanditiis eligendi cum ex aut, in cupiditate itaque atque laboriosam.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quibusdam atque natus eveniet quia consectetur dolore magni? Atque, sunt consequatur, laborum ratione commodi quis dolorum aperiam illo maxime quisquam eos.</p>
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="emal" placeholder="Digite seu email">
+                </div>
+
+                <div>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+                </div>
+
+                <div>
+                    <p>
+                        <label>Qual linguagem você prefere?</label>
+                        <input type="radio" name="linguagens" value="html">HTML
+                        <input type="radio" name="linguagens" value="css">CSS
+                        <input type="radio" name="linguagens" value="javascript">JavaScript
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                        <label>Quais linguagens você sabe?</label>
+                        <input type="checkbox" name="linguagens" value="html">HTML
+                        <input type="checkbox" name="linguagens" value="css">CSS
+                        <input type="checkbox" name="linguagens" value="javascript">JavaScript
+                    </p>
+                </div>
+
+                <div>
+                    <p>
+                        <label>Qual a sua cor favorita?</label>
+                        <select>
+                            <option selected>Azul</option>
+                            <option>Verde</option>
+                            <option>Vermelho</option>
+                        </select>
+                    </p>
+                </div>
+
+                <div>
+                    <input type="submit">
+                </div>
+
+            </form>
 
         </article>
     </section>
