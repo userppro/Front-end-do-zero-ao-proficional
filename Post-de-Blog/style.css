@@ -5,6 +5,7 @@ html{
 body{
     background-color: #f5f5f5;
     font-family: 'Open Sans', 'sans-serif';
+    text-align: justify;
 }
 
 .main-container{
@@ -23,7 +24,12 @@ body{
 }
 
 .imagem-logo{
-    width: 100px;
+    width: 25vw;
+}
+
+.planejamento{
+    width: 500px;
+    margin: 25px;
 }
 
 header{
@@ -73,6 +79,10 @@ ol{
 ol li{
     font-size: 1.4rem;
     color: #454545;
+}
+
+li{
+    list-style-type: none;
 }
 
 section{
